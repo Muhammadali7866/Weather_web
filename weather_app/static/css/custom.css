@@ -1,0 +1,64 @@
+{% load static %}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255) !important;
+    font-weight: 400;
+}
+li.nav-item {
+    padding-right: 100px;
+    font-size: 1em;
+}
+li.nav-item:hover {
+    text-decoration:overline ;
+    padding-right: 100px;
+    font-size: large;
+}
+#img{
+
+    background-image: url("/static/images/bg-img.jpg");
+
+    background-size: cover;
+    opacity: .9;
+}
+
+body{
+    background-color: rgb(129, 129, 165);
+}
+
+
+.card-item{
+    display: flex;
+    justify-content:space-evenly;
+
+
+}
+
+.card-it{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-right: 50px;
+    border-right: 2px solid black;
+
+}
+#today-box{
+    background-color: white;
+    border-radius: 5px;
+
+}
+.info-item{
+    border-top: 1px solid black;
+    width: 45%;
+}
+.uni-size-color{
+    font-size: 3rem;
+    color: rgb(43, 43, 124);
+    /* font-weight: bold; */
+}
+.hover-link:hover{
+    color: white;
+    text-decoration:underline ;
+
+    font-size: large;
+
+}
